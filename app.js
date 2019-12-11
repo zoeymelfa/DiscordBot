@@ -38,6 +38,7 @@ console.log("Logged in");
         ignoreHTTPSError: true,
         headless: true,
         handleSIGHUP: true,
+        args: [--no-sandbox, --disable-setuid-sandbox]
     });
 })();
 
